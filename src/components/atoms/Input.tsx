@@ -1,6 +1,7 @@
 import React from 'react';
 
 interface InputProps {
+  id?: string;  // Added
   type?: 'text' | 'number' | 'email' | 'password';
   placeholder?: string;
   value?: string | number;
@@ -13,6 +14,7 @@ interface InputProps {
 }
 
 export const Input: React.FC<InputProps> = ({
+  id,  // Added
   type = 'text',
   placeholder,
   value,
@@ -29,6 +31,7 @@ export const Input: React.FC<InputProps> = ({
   
   return (
     <input
+      id={id}  // Added
       type={type}
       placeholder={placeholder}
       value={value}
