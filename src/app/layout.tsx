@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Futuristic Sales Dashboard',
+  title: 'CrimsonDash Sales Dashboard',
   description: 'A modern, responsive sales dashboard built with Next.js 15, TypeScript, and atomic design principles. Features interactive charts, custom filtering, and a futuristic red theme.',
   keywords: [
     'sales dashboard',
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
   authors: [{ name: 'Your Name' }],
   creator: 'Your Name',
   openGraph: {
-    title: 'Futuristic Sales Dashboard',
+    title: 'CrimsonDash Sales Dashboard',
     description: 'Interactive sales analytics with modern web technologies',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Futuristic Sales Dashboard',
+    title: 'CrimsonDash Sales Dashboard',
     description: 'Interactive sales analytics with modern web technologies',
   },
   robots: {

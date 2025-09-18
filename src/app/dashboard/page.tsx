@@ -55,7 +55,7 @@ export default function Dashboard() {
         {/* Page Header */}
         <div className="text-center">
           <h1 className="text-4xl font-bold text-text-primary mb-2">
-            Futuristic Sales Dashboard
+            CrimsonDash Sales Dashboard
           </h1>
           <p className="text-text-secondary text-lg">
             Comprehensive sales analytics for 2022-2024 with advanced filtering

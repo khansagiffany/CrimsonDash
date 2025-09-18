@@ -73,7 +73,7 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) =>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <p className="text-text-muted text-sm">
-              © 2024 Futuristic Sales Dashboard. Built with Next.js 15 & TypeScript.
+              © 2024 CrimsonDash Sales Dashboard. Built with Next.js 15 & TypeScript.
             </p>
             <div className="flex space-x-4 text-sm">
               <a href="#" className="text-text-secondary hover:text-text-primary transition-colors">

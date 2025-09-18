@@ -1,4 +1,4 @@
-# Futuristic Sales Dashboard
+# CrimsonDash Sales Dashboard
 
 A modern, responsive sales dashboard built with Next.js 15, TypeScript, and Tailwind CSS following atomic design principles. Features interactive charts, custom filtering, and a futuristic red theme.
 
