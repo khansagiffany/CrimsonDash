@@ -4,7 +4,7 @@ const nextConfig = {
 
   // Enable experimental features for Next.js 15
   experimental: {
-    appDir: true,
+    // appDir: true,
     optimizeCss: true,
   },
 
