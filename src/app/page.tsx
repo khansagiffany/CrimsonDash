@@ -16,7 +16,7 @@ export default function Home() {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-text-primary mb-6 animate-fade-in">
-              Futuristic Sales
+              CrimsonDash Sales
               <span className="block text-primary-800">Dashboard</span>
             </h1>
             
@@ -33,7 +33,7 @@ export default function Home() {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a 
-                href="https://github.com/yourusername/futuristic-sales-dashboard" 
+                href="https://github.com/khansagiffany/CrimsonDash" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 border-2 border-primary-800 text-primary-800 hover:bg-primary-800 hover:text-white font-medium rounded-lg transition-all duration-200"
