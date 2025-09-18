@@ -4,8 +4,7 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "es6",
-      "ES2022"
+      "esnext"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -16,31 +15,32 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+
+    // Penting untuk JSX/React
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+
+    // Build perf
     "incremental": true,
+
+    // Plugin bawaan Next
     "plugins": [
       {
         "name": "next"
       }
     ],
+
+    // Path alias
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@/components/*": [
-        "./src/components/*"
-      ],
-      "@/data/*": [
-        "./src/data/*"
-      ],
-      "@/types/*": [
-        "./src/types/*"
-      ],
-      "@/lib/*": [
-        "./src/lib/*"
-      ]
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/data/*": ["./src/data/*"],
+      "@/types/*": ["./src/types/*"],
+      "@/lib/*": ["./src/lib/*"]
     },
+
+    // Strict mode tambahan
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -55,7 +55,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/not-found.jsx"  ],
   "exclude": [
     "node_modules",
     ".next",
